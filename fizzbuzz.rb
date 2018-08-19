@@ -6,4 +6,5 @@ def fizzbuzz(int)
   elsif int % 3 && int % 5
     print 'Fizzbuzz'
   else print 'nill'
+  end
 end
