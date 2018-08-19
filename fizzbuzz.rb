@@ -1,4 +1,7 @@
+require 'pry'
+
 def fizzbuzz(int)
+  binding.pry
   if int % 3 == 0 && int % 5 != 0 
     return 'Fizz'
   elsif int % 5 == 0 && int % 3 != 0 
